@@ -1,0 +1,55 @@
+body {
+    background-image: url("papel_antigo.jpg"); /* Imagem de fundo de papel antigo */
+    background-repeat: repeat;
+    font-family: 'Marck Script', cursive; /* Fonte cursiva elegante */
+    color: #331a00; /* Cor de tinta antiga */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 33px;
+}
+
+.carta {
+    background-color: rgba(255, 250, 230, 0.8); /* Cor de fundo da carta com transparência */
+    padding: 40px;
+    border: 2px solid #996633; /* Borda da carta */
+    border-radius: 10px; /* Cantos arredondados */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Sombra */
+    width: 80%;
+    max-width: 800px; /* Largura máxima da carta */
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: underline; /* Sublinhado no título */
+}
+
+p {
+    line-height: 1.6; /* Espaçamento entre linhas */
+    text-indent: 30px; /* Indentação no início dos parágrafos */
+}
+
+.assinatura {
+    text-align: right;
+    margin-top: 40px;
+}
+
+.botao-voltar {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background-image: url('https://png.pngtree.com/png-clipart/20230314/original/pngtree-left-arrow-vector-icon-design-illustration-png-image_8987842.png'); /* Certifique-se de ter uma imagem de seta */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
